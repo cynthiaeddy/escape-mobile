@@ -18,6 +18,7 @@
 	height: 100vh;
 	background: snow;
 	scroll-behavior: auto;
+  position: fixed
 }
 
 .door_container {
@@ -28,14 +29,16 @@
 	margin: auto;
 	flex-direction: row
 }
-img {
+/* img {
   width: 50%
-}
+} */
 img.door_left {
 	border: 1px solid black;
 	border-right: none;
+  width: 50%
 }
 img.door_right {
 	border: 1px solid black;
 	border-left: none;
+  width: 50%
 }
