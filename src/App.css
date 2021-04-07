@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+}
+:root {
+	font-size: 62.5%;
+}
+:root body {
+	margin: 0;
+	font-size: 1.6rem;
+}
+
+.container {
+	overflow: hidden !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background: snow;
+	scroll-behavior: auto;
+}
+
+.door_container {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	width: 80%;
+	margin: auto;
+	flex-direction: row
+}
+img {
+  width: 50%
+}
+img.door_left {
+	border: 1px solid black;
+	border-right: none;
+}
+img.door_right {
+	border: 1px solid black;
+	border-left: none;
+}
