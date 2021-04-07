@@ -26,6 +26,7 @@
 	position: relative;
 	justify-content: center;
 	width: 80%;
+
 	margin: auto;
 	flex-direction: row
 }
@@ -35,10 +36,12 @@
 img.door_left {
 	border: 1px solid black;
 	border-right: none;
-  width: 50%
+  width: 50%;
+  height: 50%
 }
 img.door_right {
 	border: 1px solid black;
 	border-left: none;
-  width: 50%
+  width: 50%;
+  height: 50%
 }

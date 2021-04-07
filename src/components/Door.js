@@ -22,7 +22,7 @@ const Door = () => {
       ></button> */}
 
       <img src={door_closed5} className="door_left" alt='door left' />
-      {/* <img src={door_closed5} className="door_right" alt='door right'/> */}
+      <img src={door_closed5} className="door_right" alt='door right'/>
 
 
     </div>
